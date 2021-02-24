@@ -8,3 +8,5 @@
 // 测试 git merge --no-commit 
 
 // 测试 git merge --squash     +1
+
+// 测试 git merge dev --no-commit --squash 
