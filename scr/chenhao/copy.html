@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img id='copyPicImgId' src="./image/小叶子.png" alt="">
+    </div>
+    <script>
+        window.getSelection().removeAllRanges();
+        let range = document.createRange()
+        // copyPicImgId：为要复制的<img /> 的id
+        range.selectNode(document.getElementById('copyPicImgId'));
+        console.log(range)
+        window.getSelection().addRange(range);
+        document.execCommand("Copy");
+        console.log("success")
+    </script>
+</body>
+
+</html>
