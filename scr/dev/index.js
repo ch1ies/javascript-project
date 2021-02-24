@@ -6,3 +6,5 @@
 //dev change 5
 
 // 测试 git merge --no-commit 
+
+// 测试 git merge --squash 
