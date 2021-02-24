@@ -9,4 +9,4 @@
 
 // 测试 git merge --squash     +1
 
-// 测试 git merge dev --no-commit --squash 
+// 测试 git merge dev --no-commit --squash  +1
